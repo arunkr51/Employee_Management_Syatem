@@ -14,8 +14,8 @@ export default function HomePage() {
 
 
     function handleDelete(id) {
-        if (!window.confirm("Are you sure you want to delete this employee?")) {
-            dispatch(deleteEmployee())
+        if (window.confirm("Are you sure you want to delete this employee?")) {
+            dispatch(deleteEmployee(id))
         }
     }
 

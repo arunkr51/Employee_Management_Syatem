@@ -64,32 +64,6 @@ export default function RegistrationPage() {
         alert(`Employee added Successfully`)
         navigate("/")
 
-        // else {
-        //     try {
-
-        //         let response =  fetch("http://localhost:8000/employees", {
-
-        //             method: "POST",
-        //             headers: {
-        //                 "Content-Type": "application/json"
-        //             },
-        //             body: JSON.stringify({
-        //                 name: data.name,
-        //                 email: data.email,
-        //                 role: data.role
-        //             })
-        //         })
-
-        //         response = await response.json()
-        //         if (response) {
-        //             navigate("/")
-        //         } else {
-        //             alert(`Something went wrong`)
-        //         }
-
-        //     } catch (error) {
-        //         alert(`Internal server error`)
-        //     }
     }
 
 
